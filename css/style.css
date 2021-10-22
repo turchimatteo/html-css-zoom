@@ -69,6 +69,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
     
     
     
@@ -81,9 +82,26 @@ footer {
 }
 .footer-icons {
     color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
     
     
 }
+.footer-icons div {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 .footer-icons i {
-    margin-left: 10px;
+    margin-left: 12px;
+}
+.end-meeting {
+    background-color: #4a4a4a;
+    
+}
+.end-meeting span {
+    position: relative;
+    left: 0;
+    top: 25px;
 }
