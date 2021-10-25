@@ -66,42 +66,33 @@ main {
 
 /* FOOTER */
 footer {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
-    
-    
-    
-
-
-
-    /* test */
+    align-items: center;
+    width: 100%;
     height: 70px;
+    overflow: hidden;
     background-color: #222222;
-}
-.footer-icons {
     color: white;
+    font-size: 13px;
+}
+.audio-video-options,
+.meeting-options {
     display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-    
-    
+    align-items: center;
 }
-.footer-icons div {
-    display: flex;
-    justify-content: space-evenly;
-    
+
+.footer-icon {
+    text-align: center;
+    padding: 0 10px;
 }
-.footer-icons i {
-    margin-left: 12px;
-}
+
 .end-meeting {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #4a4a4a;
-    
-}
-.end-meeting span {
-    position: relative;
-    left: 0;
-    top: 25px;
+    height: 100%;
+    color: red;
 }
